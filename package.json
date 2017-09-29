@@ -4,6 +4,7 @@
   "description": "An opinionated starter kit for TypeScript projects",
   "main": "dist/index.js",
   "scripts": {
+    "build": "tsc --project .",
     "test": "jest",
     "test-ci": "yarn test -- --runInBand --coverage",
     "test-watch": "yarn test -- --watch"
