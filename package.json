@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "description": "An opinionated starter kit for TypeScript projects",
   "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "test-ci": "yarn test -- --runInBand --coverage",
+    "test-watch": "yarn test -- --watch"
+  },
   "author": "hstkk <hostikka@gmail.com>",
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "jest": "^21.2.1",
+    "ts-jest": "^21.0.1",
     "typescript": "^2.5.3"
   }
 }
