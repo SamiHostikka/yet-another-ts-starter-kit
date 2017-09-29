@@ -1,0 +1,12 @@
+{
+  "name": "yet-another-ts-starter-kit",
+  "version": "1.0.0",
+  "description": "An opinionated starter kit for TypeScript projects",
+  "main": "dist/index.js",
+  "author": "hstkk <hostikka@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^2.5.3"
+  }
+}
