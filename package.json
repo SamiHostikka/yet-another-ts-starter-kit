@@ -5,11 +5,12 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc --project .",
+    "clean": "rm -rf dist",
     "lint": "tslint --type-check --project .",
-    "test": "jest",
-    "test-ci": "yarn test --runInBand --coverage",
-    "test-coverage": "yarn test --coverage",
-    "test-watch": "yarn test --watch"
+    "pretest": "yarn run lint",
+    "prebuild": "yarn run clean && yarn test --runInBand",
+    "test": "jest --coverage",
+    "watch": "yarn test --watch"
   },
   "author": "hstkk <hostikka@gmail.com>",
   "license": "MIT",
