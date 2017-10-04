@@ -1,5 +1,7 @@
 # Yet another TS starter kit
 
+[![Build Status](https://travis-ci.org/hstkk/yet-another-ts-starter-kit.svg?branch=master)](https://travis-ci.org/hstkk/yet-another-ts-starter-kit)
+
 An opinionated starter kit for TypeScript projects that contains Jest, TSLint and Travis CI configs
 
 ## Getting started
