@@ -6,9 +6,9 @@
   "scripts": {
     "build": "tsc --project .",
     "test": "jest",
-    "test-ci": "yarn test -- --runInBand --coverage",
-    "test-coverage": "yarn test -- --coverage",
-    "test-watch": "yarn test -- --watch"
+    "test-ci": "yarn test --runInBand --coverage",
+    "test-coverage": "yarn test --coverage",
+    "test-watch": "yarn test --watch"
   },
   "author": "hstkk <hostikka@gmail.com>",
   "license": "MIT",
