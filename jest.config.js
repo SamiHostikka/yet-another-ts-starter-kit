@@ -14,5 +14,6 @@ module.exports = {
     "transform": {
         ".ts": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
-    "verbose": true
+    "verbose": true,
+    "mapCoverage": true
 };
