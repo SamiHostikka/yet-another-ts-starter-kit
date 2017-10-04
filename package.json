@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc --project .",
     "clean": "rm -rf dist",
+    "fix": "yarn run lint --fix",
     "lint": "tslint --type-check --project .",
     "pretest": "yarn run lint",
     "prebuild": "yarn run clean && yarn test --runInBand",
