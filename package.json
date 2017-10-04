@@ -13,7 +13,7 @@
     "test": "jest --coverage",
     "watch": "yarn test --watch"
   },
-  "author": "hstkk <hostikka@gmail.com>",
+  "author": "{{whoami}}",
   "license": "MIT",
   "private": true,
   "devDependencies": {
