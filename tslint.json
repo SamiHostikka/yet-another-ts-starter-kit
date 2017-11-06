@@ -14,7 +14,6 @@
     "readonly-array": true,
     "no-let": true,
     "no-object-mutation": true,
-    "no-this": true,
     "no-mixed-interface": true,
     "no-expression-statement": [
       true,
@@ -34,6 +33,9 @@
       }
     ],
     "missing-jsdoc": false,
-    "export-name": false
+    "export-name": false,
+    "no-http-string": false,
+    "no-relative-imports": false,
+    "import-name": false
   }
 }
