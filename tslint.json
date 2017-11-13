@@ -36,6 +36,7 @@
     "export-name": false,
     "no-http-string": false,
     "no-relative-imports": false,
-    "import-name": false
+    "import-name": false,
+    "interface-name": [true, "never-prefix"]
   }
 }
