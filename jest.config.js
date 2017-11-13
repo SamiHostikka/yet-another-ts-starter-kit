@@ -15,5 +15,9 @@ module.exports = {
         ".ts": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
     "verbose": true,
-    "mapCoverage": true
+    "mapCoverage": true,
+    "moduleDirectories": [
+        "node_modules",
+        "src"
+    ]
 };
