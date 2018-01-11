@@ -15,8 +15,7 @@ module.exports = {
     },
     "verbose": true,
     "mapCoverage": true,
-    "moduleDirectories": [
-        "node_modules",
-        "src"
-    ]
+    "moduleNameMapper": {
+        "@/(.*)": "<rootDir>/src/$1"
+    }
 };
