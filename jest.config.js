@@ -1,18 +1,17 @@
 module.exports = {
     "moduleFileExtensions": [
         "ts",
+        "tsx",
         "js",
+        "jsx",
         "json"
     ],
-    "testMatch": [
-        "**/__tests__/**/*.(ts|js)",
-        "**/?(*.)(spec|test).(ts|js)"
-    ],
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
     "testPathIgnorePatterns": [
         "<rootDir>/(node_modules|dist)/"
     ],
     "transform": {
-        ".ts": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+        "^.+\\.tsx?$": "ts-jest"
     },
     "verbose": true,
     "mapCoverage": true,
